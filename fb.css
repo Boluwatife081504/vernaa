@@ -1,0 +1,104 @@
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color:whitesmoke;
+    padding: 0;
+}
+.name{
+    color: blue;
+    font-size: xxx-large;
+    font-family: sans-serif;
+
+}
+.ok{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:300px;
+    margin: 10px;
+}
+.pook{
+    width:370px;
+}
+.flexx{
+    background-color: white;
+    border-radius: 20px;
+    width:370px;
+    height: 250px;
+    padding: 20px;
+}
+h2{
+    background-color: whitesmoke;
+    color: rgb(20, 20, 20);
+    font-weight:500;
+    font-size: x-large;
+}
+.text{
+    width: 330px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: white;
+    padding-left: 15px;
+}
+.text:hover{
+    background-color: aliceblue;
+    border-color: whitesmoke;
+    transition:0.2s;
+}
+#submit-form{
+    text-align: center;
+    color: white;
+    background-color:rgb(20, 50, 200);
+    width:350px;
+    height:35px;
+    border-radius: 10px;
+}
+#submit-form:hover{
+    background-color:rgb(20, 50, 255);
+    transition: 0.2s;
+}
+a{
+    color: rgb(20, 50, 180);
+}
+a:hover{
+    color:red;
+    transition: 0.2s;;
+}
+.create{
+    color: white;
+    background-color:rgb(30, 172, 30);
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+    border-radius:5px;
+}
+.create:hover{
+    color:whitesmoke;
+    transition: 0.2s;;
+}
+.reset{
+    width: 250px;
+    height: 35px;
+    background-color: rgba(0, 0, 0, 0.167);
+    border-radius: 12px;
+
+}
+.reset-here{
+    width:100px;
+    border-radius: 10px;
+    height: 30px;
+}
+.fb{
+    text-align: start;
+    margin-top: 20px;
+}
+.new{
+    width: 200px;
+}
+.signup{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+}
